@@ -65,7 +65,7 @@ figcaption {
 }
 @media screen and (min-width: 35.75em) {/*  572/16 = 35.75 em */
   html {
-    padding: 2.125em 15% ;/*  38.25/168 = 2.125 em */
+    padding: 2.125em 15% ;/*  38.25/18 = 2.125 em */
   }
   h2 {
     padding-top: 3.6em;/*  64.8/18 = 3.6 em */
@@ -80,7 +80,16 @@ figcaption {
     font-size: 1.125em;/*  20.25/18 = 1.125 em */
   }
 }
-
+@media screen and (min-width: 61.25em){ /* 980/16*/
+  html {
+    padding: 3em 15%;/* 51/18 em */
+  }
+  .nav a {
+    font-size: 1.5em;/*  27/18 em */
+  }
+  h2 {
+    padding-top: 3.8333em;/*  69/18 em */
+}
 
 
 
